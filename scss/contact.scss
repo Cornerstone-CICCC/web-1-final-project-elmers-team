@@ -11,6 +11,10 @@ body {
       padding-bottom: 60px;
       color:#5E4A49;
 
+      img {
+        color: #5E4A49;
+      }
+
       h1 {
         font-size: 80px;
         font-weight: lighter;
@@ -21,7 +25,7 @@ body {
       }
 
       p {
-        width: 437px;
+        width: 400px;
         margin: 0 auto;
         font-size: 18px;
         padding-top: 60px;
@@ -36,6 +40,13 @@ body {
 
         li {
           list-style-type: none;
+          padding-right: 40px;
+
+          img {
+            padding-right: 10px;
+            display: inline;
+            vertical-align: middle;
+          }
         }
       }
     }
@@ -151,6 +162,26 @@ body {
 
       .call-time {
         margin-bottom: 40px;
+
+      }
+
+      .contact {
+
+        .box {
+          display:none;
+
+          &.appear{
+            display: block;
+          }
+
+          input {
+            width: 95%;
+            padding: 12px 0px 12px 16px;
+            font-size: 18px;
+            margin-bottom: 20px;
+          }
+        }
+        
       }
 
       .next {
@@ -170,3 +201,4 @@ body {
     }
   }
 }
+

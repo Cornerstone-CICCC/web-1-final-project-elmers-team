@@ -1,5 +1,6 @@
 body {
   font-family: Baskervville;
+  background-color: #F8F6F4;
 }
 body .container {
   margin: 0 auto;
@@ -10,6 +11,9 @@ body .container .title {
   padding-bottom: 60px;
   color: #5E4A49;
 }
+body .container .title img {
+  color: #5E4A49;
+}
 body .container .title h1 {
   font-size: 80px;
   font-weight: lighter;
@@ -18,7 +22,7 @@ body .container .title hr {
   width: 200px;
 }
 body .container .title p {
-  width: 437px;
+  width: 400px;
   margin: 0 auto;
   font-size: 18px;
   padding-top: 60px;
@@ -32,6 +36,12 @@ body .container .title ul {
 }
 body .container .title ul li {
   list-style-type: none;
+  padding-right: 40px;
+}
+body .container .title ul li img {
+  padding-right: 10px;
+  display: inline;
+  vertical-align: middle;
 }
 body .container .form {
   padding: 60px 80px;
@@ -125,6 +135,18 @@ body .container .form .name #name {
 }
 body .container .form .call-time {
   margin-bottom: 40px;
+}
+body .container .form .contact .box {
+  display: none;
+}
+body .container .form .contact .box.appear {
+  display: block;
+}
+body .container .form .contact .box input {
+  width: 95%;
+  padding: 12px 0px 12px 16px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 body .container .form .next {
   display: flex;
