@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/contact/party-detail.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class = "container">
+
+    <div class = "form">
+      <div class="heading">
+        <h2 class="service">Service</h2>
+        <h2 class="classes">Classes</h2>
+      </div>
+      <div class = "back">
+         <a href ="contact.html">
+          <img  src="/images/contact/arrow-back.svg"> 
+          <span>Back</span> 
+        </a>
+      </div>
+      <form>
+        <div class="braidal-service">
+          <label>Service</label><br>
+            <div class = "type-option">
+              <span>Makeup</span>
+              <input type="radio" name ="event-type"  id = "option-wedding">
+            </div>
+            <div class = "type-option">
+              <span>Hairstyle</span>
+              <input type="radio" name ="event-type">
+            </div>
+        </div>
+        <div class="event-location">
+            <label>Event Location</label><br>
+              <input type="search" name="location" id="location" placeholder="Search adress"><br>
+              <input type="checkbox" name="notyet" value="notyet" >
+              <span class="not">Not decided</span>
+        </div>
+        <div>
+            <label>Premium service</label><br>
+            <div class="premium-service">
+              <div class="option">
+                <ul>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                <span>Deep skin cleansing</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Hydromassage</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Waxing</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Relaxing massage</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Bleach body hair</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Hair Moisture</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Foot and hand SPA</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Gommage (body exfoliation and hydration)</span></li>
+              </ul>
+            </div>
+          </div> 
+          <div class="service-person">
+            <label>Anyone else need service?</label>
+            <div class = "person">
+              <div class="person-left">
+                <span>Woman</span>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                    -
+                  </button>
+                </div>
+                <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+                <div class="input-group-append">
+                  <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                    +
+                  </button>
+                </div> 
+              </div>
+              <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite">
+              </div>
+              </div>
+              
+              <div class="service-type">
+                <input type = "checkbox">
+                <span>Hairstyle</span>
+                <input type = "checkbox">
+                <span>Makeup</span>
+              </div>
+            </div>
+            <div class = "person">
+              <div class="person-left">
+                <span>Man</span>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                    -
+                  </button>
+                </div>
+                <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+                <div class="input-group-append">
+                  <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                    +
+                  </button>
+                </div> 
+              </div>
+              <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite">
+              </div>
+              </div>
+
+              <div class="service-type">
+                <input type = "checkbox">
+                <span id="broom-servive">Makeup</span>
+              </div>
+            </div>
+          </div>
+          <div class="message">
+            <label>Anyone else need service?</label><br>
+            <textarea placeholder="Your message"></textarea>
+          </div>
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div> 
+  <script src="/js/contact/party-detail.js"></script>
+</body>
+</html>

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="stylesheet" href="/css/contact/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
       <hr>
       <p>Get a quote and book a free consultation for your special day or our academy services</p>
       <ul>
-        <li>+1 0000000000</li>
-        <li>+1 0000000000</li>
-        <li><img src="">carlabeatrizs_</li>
+        <li><img src="/images/contact/call.svg">+1 0000000000</li>
+        <li><img src="/images/contact/whatsapp.svg">+1 0000000000</li>
+        <li><img src="/images/contact/instagram.svg">carlabeatrizs_</li>
       </ul>
     </div>
     <div class = "form">
@@ -28,7 +29,7 @@
           <label>Event Type</label><br>
             <div class = "type-option">
               <span>Wedding</span>
-              <input type="radio" name ="event-type">
+              <input type="radio" name ="event-type"  id = "option-wedding">
             </div>
             <div class = "type-option">
               <span>Party</span>
@@ -42,7 +43,7 @@
         <div class="event-schedule">
           <div class="event-date">
             <label>Event Date</label><br>
-              <input type="date" name="event-date" id="date" placeholder="Your name"><br>
+              <input type="date" name="event-date" id="date" value="Select Date"><br>
               <input type="checkbox" name="notyet" value="notyet" >
               <span class="not">Not decided</span>
           </div>
@@ -59,23 +60,44 @@
         </div>
         <div>
             <label>Contact</label><br>
+            <div class="contact">
               <div class="option">
-                <input type="radio" name ="contact">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-call">
                 <span>Call</span>
               </div>
+              <div class ="box" id = "box-call">
+                <input type="phone" name="phone" id="phone" class="input"
+               title="Phone numbers should be this format:(111)-111-111" pattern="0-9"  placeholder="Your mobile number" required>
+              </div>
+
               <div class="option">
-                <input type="radio" name ="contact">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-whatsapp">
                 <span>WhatsApp</span>
               </div>
+              <div class ="box" id = "box-whatsapp">
+                <input type="phone" name="phone" id="phone" class="input"
+                  title="Phone numbers should be this format:(111)-111-111" pattern="0-9" placeholder="Your mobile number" required>
+              </div>
+
               <div class="option">
-                <input type="radio" name ="contact">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-sms">
                 <span>SMS</span>
               </div>
+              <div class="box"  id = "box-sms">
+                <input type="phone" name="phone" id="phone" class="input"
+                  title="Phone numbers should be this format:(111)-111-111" pattern="[0-9]" placeholder="Your mobile number" required>
+              </div>
+
               <div class="option">
-                <input type="radio" name ="contact">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-email">
                 <span>Email</span>
               </div>
-        </div> 
+              <div class="box"  id = "box-email">
+                <input type="email" name="email" id="email" class="input"
+                placeholder="Your e-mail adress" pattern="[a-zA-Z0-9_.]" required>
+              </div>
+            </div>
+          </div> 
         <div class ="call-time">
           <h3>When do you want us to call?</h3>
           <div class="option">
@@ -101,5 +123,6 @@
       </form>
     </div>
   </div> 
+  <script src="/js/contact/contact.js"></script>
 </body>
 </html>
