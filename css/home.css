@@ -30,7 +30,7 @@ header .header {
   width: 100%;
   height: 196px;
   background-color: #f8f6f4;
-  z-index: 10000;
+  z-index: 2000;
 }
 header .header .header_ul {
   list-style: none;
@@ -138,6 +138,9 @@ header .header .header_logo {
   background-color: #f8f6f4;
   border: 1px solid #191919;
   z-index: 1000;
+}
+.section2 .main_component .card_container .card .photo_ {
+  border: none;
 }
 .section2 .main_component .card_container .card .insta-account {
   position: absolute;
@@ -292,7 +295,7 @@ header .header .header_logo {
 }
 .section3 .head hr {
   width: 200px;
-  size: 1px;
+  height: 1px;
   margin: 0 auto 40px auto;
   color: #b99692;
 }
@@ -379,7 +382,7 @@ header .header .header_logo {
 }
 .section4 .texts hr {
   width: 200px;
-  size: 1px;
+  height: 1px;
   margin: 0 auto 40px auto;
   color: #e3b6b1;
 }
@@ -595,6 +598,48 @@ header .header .header_logo {
   align-items: center;
   margin-bottom: 60px;
 }
+.section6 .container .videos .video1 {
+  cursor: pointer;
+  background-color: transparent;
+}
+.section6 .container .videos .modal {
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2000;
+}
+.section6 .container .videos .modal .modal-content {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 5% auto;
+  width: 560px;
+}
+.section6 .container .videos .modal .modal-content .close {
+  background-color: #fae9e7;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  top: 0px;
+  right: -95px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section6 .container .videos .modal .modal-content .close:hover, .section6 .container .videos .modal .modal-content .close:focus {
+  color: #191919;
+  text-decoration: none;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .section6 .container .videos .video2 {
   margin: 0 30px;
 }
@@ -663,6 +708,7 @@ footer .navbar ul li {
   align-items: center;
 }
 footer .navbar ul li a {
+  font-family: "Baskervville", serif;
   text-decoration: none;
   color: inherit;
 }

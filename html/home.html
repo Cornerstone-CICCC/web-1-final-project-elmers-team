@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Home</title>
   <link rel="stylesheet" href="/css/home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
           <a href="#">My Work</a>
         </li>
         <li class="header_li">
-          <a href="#">Services</a>
+          <a href="/html/service.html">Services</a>
         </li>
         <li class="header_li">
           <a href="#">Classes</a>
@@ -35,13 +35,13 @@
           <a href="#">Beauty Tips</a>
         </li>
         <li class="header_li">
-          <a href="#"> About</a>
+          <a href="/html/about.html"> About</a>
         </li>
         <li class="header_li">
-          <a href="#">Contact</a>
+          <a href="/html/contact/contact.html">Contact</a>
         </li>
         <li class="header_li">
-          <a href="#"><div class="instagram_icon"><img src="/images/mark/instagram_brown.svg" alt="instagram_icon"></div></a>
+          <a href="https://www.instagram.com/"><div class="instagram_icon"><img src="/images/mark/instagram_brown.svg" alt="instagram_icon"></div></a>
         </li>
       </ul>
     </div>
@@ -51,13 +51,8 @@
   </header>
 
   <div class="spaceholder"></div>
-  <!-- <div class="fixed-icon">
-    <img src="https://placehold.co/285x320" alt="">
-  </div> -->
-
 
   <main>
-
     <section class="section1">
       <div class="container">
         <div class="texts">
@@ -71,7 +66,7 @@
       <div class="main_component">
         <div class="card_container">
           <div class="card">
-            <img src="/images/portrait/Frame 123.svg" alt="woman with pink background color">
+            <div class="photo_"><img src="/images/portrait/Frame+123.png" alt="woman with pink background color"></div>
             <!-- <div class="insta-account">
               <img src="/images/mark/instagram_white.svg" alt="">
               <p class="account-name">carlabeatrizs_</p>
@@ -111,6 +106,20 @@
           <div  class="item item8"><img src="/images/brand-logo/kryolan.svg" alt="kryolan"></div>
         </div>
       </div>
+      <!-- <div class="logos">
+        <div class="box">
+          <div class="brands-list">
+            <div  class="item item1"><img src="/images/brand-logo/MAC.svg" alt="MAC"></div>
+            <div  class="item item2"><img src="/images/brand-logo/Lancôme.svg" alt="Lancôme"></div>
+            <div  class="item item3"><img src="/images/brand-logo/inglot.svg" alt="inglot"></div>
+            <div  class="item item4"><img src="/images/brand-logo/Laura Mercier.svg" alt="Laura Mercier"></div> 
+            <div  class="item item5"><img src="/images/brand-logo/charlotteTilbury.svg" alt=""></div>
+            <div  class="item item6"><img src="/images/brand-logo/tarte.svg" alt="tarte"></div>
+            <div  class="item item7"><img src="/images/brand-logo/anastasia.svg" alt="anastasia"></div>
+            <div  class="item item8"><img src="/images/brand-logo/kryolan.svg" alt="kryolan"></div>
+          </div>
+        </div>
+      </div> -->
     </section>
     <section class="section3">
       <div class="head">
@@ -147,16 +156,17 @@
         <button>Get a Quote</button>
       </div>
       <div class="photos">
-        <div class="photo_party">
+        <div class="box photo_party">
           <img src="/images/portrait/section4_1.png" alt="woman">
           <div class="text"><span>P</span>arty</div>
 
         </div>
-        <div class="photo_wedding">
+        <div class="box photo_wedding">
           <img src="/images/portrait/sesction4_2.png" alt="woman">
           <div class="text"><span>W</span>edding</div>
         </div>
-        <div class="photo_photoshoot">
+
+        <div class="box photo_photoshoot">
           <img src="/images/portrait/section4_3.png" alt="woman">
           <div class="text"><span>P</span>hotoshoot</div>
         </div>
@@ -203,14 +213,20 @@
       <div class="container">
         <h3>DIY Beauty Corner</h3>
         <div class="videos">
-          <div class="video1">
+          <div class="video1" onclick="openModal1()">
             <img src="/images/_videos/video1.png" alt="video1">
           </div>
-          <div class="video2">
+          <div class="video2" onclick="openModal2()">
             <img src="/images/_videos/video2.png" alt="video2">
           </div>
-          <div class="video3">
+          <div class="video3" onclick="openModal3()">
             <img src="/images/_videos/videos3.png" alt="video3">
+          </div>
+          <div id="myModal" class="modal" onclick="closeModal()">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <iframe id="youtubeVideo" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         <div class="button">
@@ -239,7 +255,7 @@
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">My Work</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="/">Services</a></li>
         <li><a href="#">Classes</a></li>
         <li><a href="#">Beauty Tips</a></li>
         <li><a href="#"> About</a></li>
@@ -251,5 +267,6 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="/js/contact/home-modal.js"></script>
 </body>
 </html>

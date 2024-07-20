@@ -33,7 +33,7 @@ header {
     width: 100%;
     height: 196px;
     background-color: $color-paleWhite;
-    z-index: 10000;
+    z-index: 2000;
   
     
     .header_ul {
@@ -153,6 +153,10 @@ header {
         border: 1px solid $color-black;
         z-index: 1000;
 
+        .photo_ {
+          border: none;
+        }
+
         .insta-account {
           position: absolute;
           top: 280px;
@@ -269,7 +273,24 @@ header {
     }
     
   }
-  .brands-list {
+  // .logos {
+  //   .box {
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     flex-direction: column;
+      
+  //     .brands-list {
+  //       margin: 0 auto 50px;
+  //       width: 900px;
+  //       display: flex;
+  //       justify-content: space-around;
+  //       flex-wrap: wrap;
+  //       gap: 100px;
+  //     }
+  //   }
+  // }
+    .brands-list {
     background-color: transparent;
     margin: 0 auto;
     width: 740px;
@@ -317,7 +338,7 @@ header {
     }
     hr {
       width: 200px;
-      size: 1px;
+      height: 1px;
       margin: 0 auto 40px auto;
       color: $color-darkPink;
       
@@ -411,7 +432,7 @@ header {
     }
     hr {
       width: 200px;
-      size: 1px;
+      height: 1px;
       margin: 0 auto 40px auto;
       color: $color-pink;
       
@@ -436,6 +457,13 @@ header {
       font-weight: 400;
     }
   }
+
+
+
+
+
+
+
   .photos {
     display: flex;
     justify-content: center;
@@ -445,6 +473,7 @@ header {
     height: auto;
     margin-bottom: 100px;
   }
+
   .photo_party {
     position: relative;
     .text {
@@ -636,6 +665,50 @@ header {
       justify-content: center;
       align-items: center;
       margin-bottom: 60px;
+      .video1 {
+        cursor: pointer;
+        background-color: transparent;
+      }
+      .modal {
+        padding-top: 60px; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; 
+        background-color: rgba(0,0,0,0.6); 
+        z-index: 2000;
+        .modal-content {
+          -moz-user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          margin: 5% auto; 
+          width: 560px; 
+          .close {
+            background-color: $color-lightPink;
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            margin:auto;
+            top: 0px;
+            right: -95px;
+            font-size: 60px;
+            font-weight: bold;
+            &:hover,&:focus {
+              color: $color-black;
+              text-decoration: none;
+              cursor: pointer;
+              -moz-user-select: none;
+              -webkit-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              
+            }
+          }
+        }
+      }
+
       .video2 {
         margin: 0 30px;
       }
@@ -664,23 +737,18 @@ header {
 
 
 footer {
-  // position: fixed;
   bottom: 0;
   left:0;
   width: 100%;
-  // margin: 0 auto;
   background-color: $color-paleWhite;
-
   .icon-box {
     text-align: center;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 20px;
-
     .footer_logo {
       margin-bottom: 15px;
     }
-
     .footer_p {
       margin-bottom: 15px;
       font-size: 14px;
@@ -693,7 +761,6 @@ footer {
     width: 100%;
     height: 66px;
     margin-bottom: 20px;
-  
     ul {
       display: flex;
       justify-content: center;
@@ -701,8 +768,6 @@ footer {
       padding: 0;
       border-top: 1px solid black;
       border-bottom: 1px solid black;
-
-  
       li {
         font-size: 20px;
         list-style: none;
@@ -711,18 +776,15 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-
-  
         a {
+          font-family: $font-family-primary;
           text-decoration: none;
           color: inherit;
         }
       }
     }
   }
-
   .copyright {
-
     p {
       margin-bottom: 25px;
     }

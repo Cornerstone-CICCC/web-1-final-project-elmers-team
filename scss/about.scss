@@ -1,0 +1,230 @@
+@import './partials/variables';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-secondary;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-paleWhite;
+}
+
+header {
+  .fixed-icon {
+    img {
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      top: 640px;
+      right: 0;
+    }
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 196px;
+    background-color: $color-paleWhite;
+    z-index: 10000;
+  
+    
+    .header_ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+  
+      .header_li {
+        color: $color-darkBrown;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid $color-pink;
+  
+        &:last-child {
+          border: none;
+        }
+        a {
+          font-family: $font-family-primary;
+          font-weight: 400;
+          font-size: 1.25rem;
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+    .header_logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 50%;
+    
+      transform: translateX(-50%);
+      padding: 0;
+    }
+  }
+}
+
+
+.spaceholder {
+  margin-top: 196px;
+}
+
+
+main {
+  .head {
+    .texts {
+      text-align: center;
+      h3 {
+        font-family: $font-family-primary;
+        font-weight: 400;
+        font-size: 3rem;
+        color: $color-pink;
+      }
+      h1 {
+        font-family: serif;
+        font-weight: 400;
+        font-size: 5rem;
+        color: $color-darkBrown;
+        letter-spacing: 0.13rem;
+        line-height: 120px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .main {
+    background-color: $color-lightPink;
+    .card {
+      padding: 108px 137px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      .texts {
+        margin: 20px 0 20px 0;
+        width: 779px;
+        height: auto;
+        position: relative;
+        h3 {
+          font-family: $font-family-primary;
+          font-size: 3rem;
+          font-weight: 400;
+          color: $color-darkBrown;
+          margin-bottom: 50px;
+        }
+        p {
+          font-weight: 300;
+          font-size: 1.125rem;
+          color: black;
+        }
+        button {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 160px;
+          height: 62px;
+          border: 0.8px solid #5E4A49;
+          color: #5E4A49;
+          background-color: transparent;
+          font-family: $font-family-primary;
+          font-size: 1.25rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .logos {
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h1 {
+        margin: 50px auto 60px;
+        font-family: $font-family-primary;
+        font-size: 3rem;
+        font-weight: 400;
+        color: $color-darkBrown;
+      }
+      .brands-list {
+        margin: 0 auto 50px;
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 100px;
+      }
+    }
+  }
+}
+
+
+footer {
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: $color-paleWhite;
+
+  .icon-box {
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    .footer_logo {
+      margin-bottom: 15px;
+    }
+    .footer_p {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 66px;
+    margin-bottom: 20px;
+    ul {
+      
+      display: flex;
+      justify-content: center;
+      width: 85%;
+      padding: 0;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      li {
+        
+        font-size: 20px;
+        list-style: none;
+        margin: 23px 20px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          
+          font-family: $font-family-primary;
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+  .copyright {
+    p {
+      margin-bottom: 25px;
+    }
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
