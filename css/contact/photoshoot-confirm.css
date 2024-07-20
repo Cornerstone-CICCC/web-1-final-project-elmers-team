@@ -63,23 +63,35 @@ body .container .form .confirm .header img {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-body .container .form .confirm .bottom .contact .icon {
+body .container .form .confirm .icon {
   margin-left: 83px;
+}
+body .container .form .confirm .bottom {
+  justify-content: space-between;
+  display: flex;
 }
 body .container .form .confirm .bottom .contact ul {
   display: flex;
   padding: 0;
   margin-left: 83px;
+  margin-bottom: 0;
+  margin-top: 35px;
 }
 body .container .form .confirm .bottom .contact ul li {
   list-style: none;
+  color: #725A58;
 }
 body .container .form .confirm .bottom .contact ul li:nth-of-type(2) {
-  margin-left: 40px;
+  margin-left: 15px;
 }
 body .container .form .confirm .bottom .contact ul li img {
   display: inline;
   vertical-align: middle;
+  margin-right: 7px;
+}
+body .container .form .confirm .bottom .share {
+  margin-right: 83px;
+  margin-bottom: 40px;
 }
 body .container .form .confirm .bottom .share button {
   font-size: 1.25rem;
@@ -88,7 +100,12 @@ body .container .form .confirm .bottom .share button {
   padding: 24px 32px 24px 32px;
   box-shadow: none;
   width: 160px;
+  height: 62px;
   font-family: Baskervville;
+  color: #725A58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=photoshoot-confirm.css.map */

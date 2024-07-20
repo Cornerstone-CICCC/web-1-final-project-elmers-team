@@ -31,3 +31,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+const notyet = document.querySelector ('.notyet')
+const locationInput = document.querySelector ('#location')
+
+  notyet.addEventListener('click',() => {
+    if (notyet.checked) {
+      locationInput.disabled = true;
+    } else {
+      locationInput.disabled = false;
+    }
+  });
+
