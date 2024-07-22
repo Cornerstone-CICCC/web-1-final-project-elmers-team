@@ -23,7 +23,7 @@ const optionWedding = document.querySelector('#option-wedding');
 
 optionWedding.addEventListener('change',() => {
 
-  const callTime = document.querySelector('.call-time');
+  const callTime = document.querySelector('.callTime');
   callTime.classList.add('appearTime');
 });
 
@@ -32,7 +32,7 @@ const eventType = document.querySelectorAll('input[name="event-type"]')
 eventType.forEach((input) => {
   input.addEventListener('change', () => {
       if (input !== optionWedding) {
-          const callTime = document.querySelector('.call-time');
+          const callTime = document.querySelector('.callTime');
           callTime.classList.remove('appearTime');
       }
   });
@@ -123,7 +123,7 @@ next.addEventListener('click', () => {
   else {
     Wedding.classList.remove('appearWedding');
     Confirm.classList.add('appearConfirm');
-    Contact.classList.add('appearWeddingConfirm');
+    Contact.classList.add('closeContact');
   }
 });
 

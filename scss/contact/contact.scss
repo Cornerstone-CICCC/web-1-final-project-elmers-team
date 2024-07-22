@@ -6,7 +6,7 @@ body {
   background-color: $color-paleWhite;
 
   header {
-    display: none;
+    // display: none;
     .fixed-icon {
       img {
         width: 60px;
@@ -239,7 +239,7 @@ body {
         }
       }
 
-      .call-time {
+      .callTime {
         margin-bottom: 40px;
         display:none;
 
@@ -965,7 +965,7 @@ body {
     width: 100%;
     // margin: 0 auto;
     background-color: $color-paleWhite;
-    display: none;
+    // display: none;
   
     .icon-box {
       text-align: center;

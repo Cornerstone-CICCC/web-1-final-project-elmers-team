@@ -9,6 +9,7 @@
     padding: 0px !important;
   }
   body #contact-html .title {
+    padding-top: 200px;
     max-width: 100%;
   }
   body #contact-html .title h1 {
@@ -53,6 +54,9 @@
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  body #wedding {
+    padding-top: 200px;
   }
   body #wedding .form {
     padding: 0 !important;
@@ -120,6 +124,7 @@
   }
   body #photoshoot-confirm {
     width: 100%;
+    padding-top: 200px !important;
   }
   body #photoshoot-confirm .form {
     padding: 0 !important;
@@ -187,6 +192,7 @@
   }
   body #party-confirm {
     width: 100%;
+    padding-top: 200px;
   }
   body #party-confirm .form {
     padding: 0 !important;
@@ -272,9 +278,6 @@
 body {
   font-family: Baskervville;
   background-color: #f8f6f4;
-}
-body header {
-  display: none;
 }
 body header .fixed-icon img {
   width: 60px;
@@ -468,11 +471,11 @@ body #contact-html .form .name #name {
   padding: 12px 0px 12px 16px;
   font-size: 18px;
 }
-body #contact-html .form .call-time {
+body #contact-html .form .callTime {
   margin-bottom: 40px;
   display: none;
 }
-body #contact-html .form .call-time.appearTime {
+body #contact-html .form .callTime.appearTime {
   display: block;
 }
 body #contact-html .form .contact .box {
@@ -1038,7 +1041,6 @@ body footer {
   left: 0;
   width: 100%;
   background-color: #f8f6f4;
-  display: none;
 }
 body footer .icon-box {
   text-align: center;

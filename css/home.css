@@ -12,6 +12,16 @@ html, body {
   background-color: #f8f6f4;
 }
 
+h2 {
+  font-family: "Baskervville", serif;
+  color: #725a58;
+}
+
+h3 {
+  font-family: "Baskervville", serif;
+  color: #725a58;
+}
+
 header .fixed-icon img {
   width: 60px;
   height: 60px;
@@ -117,6 +127,7 @@ header .header .header_logo {
 }
 
 .section2 {
+  padding-bottom: 100px;
   background-color: #f8f6f4;
 }
 .section2 .main_component {
@@ -272,6 +283,7 @@ header .header .header_logo {
 }
 
 .section3 {
+  color: #725a58;
   width: 100%;
   justify-content: center;
   padding-top: 100px;
@@ -356,6 +368,7 @@ header .header .header_logo {
 }
 
 .section4 {
+  color: #725a58;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -377,7 +390,9 @@ header .header .header_logo {
 }
 .section4 .texts h2 {
   font-family: "Baskervville", serif;
-  font-size: 80px;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
   margin-bottom: 40px;
 }
 .section4 .texts hr {
@@ -414,54 +429,45 @@ header .header .header_logo {
   height: auto;
   margin-bottom: 100px;
 }
-.section4 .photo_party {
+.section4 .photos .box {
+  margin: auto 40px;
+  width: 26%;
+  height: auto;
   position: relative;
 }
-.section4 .photo_party .text {
+.section4 .photos .box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: inline;
+}
+.section4 .photos .box::after {
+  content: "";
   position: absolute;
-  bottom: 30px;
-  left: -50px;
-  font-family: "Baskervville", serif;
-  font-size: 5.3rem;
-  font-weight: 400;
-  color: #fae9e7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid pink;
 }
-.section4 .photo_party .text span {
-  font-family: "Baskervville", serif;
-  color: #b99692;
+.section4 .photos .box:hover {
+  width: 33%;
+  height: auto;
+  transition: all 0.3s linear;
+  z-index: 100;
 }
-.section4 .photo_wedding {
-  margin: 50px 100px 0 100px;
-  position: relative;
-  z-index: 1000;
-}
-.section4 .photo_wedding::after {
+.section4 .photos .box:hover::after {
   content: "";
   position: absolute;
   top: -20px;
   left: 20px;
   width: 100%;
   height: 100%;
-  border: 1px solid #e3b6b1;
+  border: 1px solid pink;
   z-index: -1;
+  transition: all 0.3s linear;
 }
-.section4 .photo_wedding .text {
-  position: absolute;
-  bottom: 30px;
-  left: -85px;
-  font-family: "Baskervville", serif;
-  font-size: 5.3rem;
-  font-weight: 400;
-  color: #fae9e7;
-}
-.section4 .photo_wedding .text span {
-  font-family: "Baskervville", serif;
-  color: #b99692;
-}
-.section4 .photo_photoshoot {
-  position: relative;
-}
-.section4 .photo_photoshoot .text {
+.section4 .photos .box .text {
   position: absolute;
   bottom: 30px;
   left: -50px;
@@ -470,12 +476,13 @@ header .header .header_logo {
   font-weight: 400;
   color: #fae9e7;
 }
-.section4 .photo_photoshoot .text span {
+.section4 .photos .box .text span {
   font-family: "Baskervville", serif;
   color: #b99692;
 }
 
 .section5 {
+  color: #725a58;
   margin-bottom: 100px;
   width: 100%;
   height: auto;
@@ -569,6 +576,7 @@ header .header .header_logo {
 }
 
 .section6 {
+  color: #725a58;
   margin-bottom: 100px;
   width: 100%;
   height: auto;
