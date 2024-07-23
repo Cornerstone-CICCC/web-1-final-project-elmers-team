@@ -1,5 +1,35 @@
 /*colors*/
 /*font-family*/
+@media screen and (max-width: 600px) {
+  body .head {
+    width: 100%;
+  }
+  body .head h2 {
+    font-size: 2.5rem;
+  }
+  body .main .container {
+    padding-bottom: 30px;
+  }
+  body .main .container .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  body .main .container .card .texts {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  body .main .container .card .texts .info {
+    margin: 0;
+  }
+  body .main .container .card .texts p {
+    margin-bottom: 30px;
+  }
+  body .main .container .card .texts button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -207,7 +237,6 @@ header .box_ ul li a {
   margin: 15px auto 15px auto;
 }
 .main .container .card .texts {
-  position: relative;
   margin: 30px 0 30px 40px;
 }
 .main .container .card .texts h2 {
@@ -251,7 +280,6 @@ header .box_ ul li a {
   font-weight: 300;
 }
 .main .container .card .texts button {
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 172px;

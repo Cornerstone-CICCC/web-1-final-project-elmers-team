@@ -226,7 +226,7 @@ main .main .card {
   gap: 40px;
 }
 main .main .card .texts {
-  margin: 20px 0 20px 0;
+  margin: 0 0 20px 0;
   width: 779px;
   height: auto;
 }
@@ -241,6 +241,7 @@ main .main .card .texts p {
   font-weight: 300;
   font-size: 1.125rem;
   color: black;
+  padding-bottom: 30px;
 }
 main .main .card .texts button {
   bottom: 0;

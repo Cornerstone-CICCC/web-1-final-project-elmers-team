@@ -227,7 +227,7 @@ main {
       justify-content: center;
       gap: 40px;
       .texts {
-        margin: 20px 0 20px 0;
+        margin: 0 0 20px 0;
         width: 779px;
         height: auto;
         // position: relative;
@@ -242,6 +242,7 @@ main {
           font-weight: 300;
           font-size: 1.125rem;
           color: black;
+          padding-bottom: 30px;
         }
         button {
           // position: absolute;
