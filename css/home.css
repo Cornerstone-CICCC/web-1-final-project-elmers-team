@@ -100,6 +100,7 @@ header .box_ ul li:nth-child(8) {
   margin-right: 50px;
 }
 header .box_ ul li a {
+  font-family: "Baskervville", serif;
   text-decoration: none;
   color: black;
 }
@@ -826,6 +827,7 @@ footer .navbar ul li a {
   text-decoration: none;
   color: inherit;
 }
+
 @media (max-width: 600px) {
   .navbar {
     display: flex;

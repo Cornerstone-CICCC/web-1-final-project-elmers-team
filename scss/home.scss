@@ -10,6 +10,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: $color-paleWhite;
+
   h2 {
     color: $color-darkBrown;
   }
@@ -87,12 +88,14 @@ header {
     }
 
     ul {
+      
       display: flex;
       justify-content: center;
       align-items: center;
       list-style: none;
 
       li {
+      
         padding: 0 30px;
         font-size: 1.25rem;
         border-left: 1px solid black;
@@ -123,6 +126,7 @@ header {
 
 
         a {
+          font-family: $font-family-primary;
           text-decoration: none;
           color: black;
         }

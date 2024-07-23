@@ -97,6 +97,7 @@ header .box_ ul li:nth-child(8) {
   margin-right: 50px;
 }
 header .box_ ul li a {
+  font-family: "Baskervville", serif;
   text-decoration: none;
   color: black;
 }
