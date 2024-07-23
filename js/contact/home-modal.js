@@ -18,4 +18,16 @@ function closeModal() {
   document.getElementById("youtubeVideo").src = "";
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  const humBtn = document.querySelector(".hum-btn");
+  const menu = document.querySelector(".box_ ul");
+  const instagram = document.querySelector(".instagram")
+
+  humBtn.addEventListener("click", () => {
+    humBtn.classList.toggle("open");
+    menu.classList.toggle("open");
+    instagram.classList.toggle("open")
+  });
+});
+
 
