@@ -1,0 +1,868 @@
+/*colors*/
+/*font-family*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f6f4;
+}
+html h2, body h2 {
+  color: #725a58;
+}
+
+header {
+  z-index: 20000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 196px;
+  background-color: #f8f6f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .box_ {
+  position: relative;
+}
+header .box_ .hum-btn {
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 12;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+header .box_ .hum-btn span {
+  width: 100%;
+  height: 4px;
+  background-color: #725a58;
+  border-radius: 10px;
+  transition: all 400ms;
+}
+header .box_ .hum-btn span:nth-child(1) {
+  top: 15%;
+}
+header .box_ .hum-btn span:nth-child(2) {
+  top: 50%;
+}
+header .box_ .hum-btn span:nth-child(3) {
+  top: 85%;
+}
+header .box_ .hum-btn.open span:nth-child(1) {
+  transform: translateY(15px) rotate(45deg);
+}
+header .box_ .hum-btn.open span:nth-child(2) {
+  opacity: 0;
+}
+header .box_ .hum-btn.open span:nth-child(3) {
+  transform: translateY(-12px) rotate(-45deg);
+}
+header .box_ .header_logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+}
+header .box_ ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+header .box_ ul li {
+  padding: 0 30px;
+  font-size: 1.25rem;
+  border-left: 1px solid black;
+}
+header .box_ ul li:first-child {
+  border-left: none;
+}
+header .box_ ul li:nth-child(5) {
+  border: none;
+  margin-left: 200px;
+}
+header .box_ ul li:nth-child(8) {
+  margin-right: 50px;
+}
+header .box_ ul li a {
+  font-family: "Baskervville", serif;
+  text-decoration: none;
+  color: black;
+}
+
+.hum-btn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 120px;
+  }
+  header .box {
+    z-index: 2000;
+  }
+  header .instagram {
+    z-index: 1000;
+  }
+  header .instagram img {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+  }
+  header .header_logo img {
+    height: 80px;
+  }
+  header .hum-btn {
+    display: flex;
+  }
+  header .box_ ul {
+    z-index: 2000;
+    position: fixed;
+    top: -500px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f6f4;
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+  header .box_ ul li {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px 0;
+  }
+  header .box_ ul li:nth-child(5) {
+    margin-left: 0;
+  }
+  header .box_ ul.open {
+    top: 120px;
+  }
+}
+.spaceholder {
+  margin-top: 196px;
+}
+
+.section1 {
+  background: url(/images/backgraound/2b23ea8143d3474490c0cd6c508cadb5\ 3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+.section1 .container {
+  width: 100%;
+  height: 625px;
+}
+.section1 .container .texts {
+  position: relative;
+  background-color: transparent;
+  width: 607px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin: 250px auto 125px auto;
+}
+.section1 .container .texts h2 {
+  font-family: cursive;
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+.section1 .container .texts p {
+  font-size: 18px;
+  font-weight: 300;
+  width: 488px;
+  margin: 0 auto 40px auto;
+  color: #fbfafa;
+}
+.section1 .container .texts button {
+  font-family: "Baskervville", serif;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 222px;
+  height: 62px;
+  border: 0.8px solid #fbfafa;
+  color: #fbfafa;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.section2 {
+  background-color: #f8f6f4;
+  margin-bottom: 80px;
+}
+.section2 .main_component {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+.section2 .main_component .card_container {
+  height: auto;
+  margin-right: 10px;
+}
+.section2 .main_component .card_container .card {
+  margin-top: 50px;
+  position: relative;
+  background-color: #f8f6f4;
+  border: 1px solid #191919;
+  z-index: 1000;
+}
+.section2 .main_component .card_container .card .photo_ {
+  border: none;
+}
+.section2 .main_component .card_container .card .insta-account {
+  position: absolute;
+  top: 280px;
+  left: 18px;
+  display: flex;
+  background-color: transparent;
+  width: 120px;
+  height: 28px;
+}
+.section2 .main_component .card_container .card .insta-account img {
+  display: block;
+}
+.section2 .main_component .card_container .card .insta-account .account-name {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+.section2 .main_component .card_container .card .card_texts {
+  background-color: #f8f6f4;
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.section2 .main_component .card_container .card .card_texts p {
+  width: 117px;
+  height: 39px;
+}
+.section2 .main_component .card_container .card::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e3b6b1;
+  z-index: -1;
+}
+.section2 .main_component .text_aboutMe {
+  width: 500px;
+  height: 340px;
+  position: relative;
+  margin: 50px 0 50px 80px;
+}
+.section2 .main_component .text_aboutMe .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.section2 .main_component .text_aboutMe .texts {
+  margin: 45px 0 0px 0;
+}
+.section2 .main_component .text_aboutMe .texts h2 {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.section2 .main_component .text_aboutMe .texts p {
+  width: 437px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.section2 .main_component .text_aboutMe button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 160px;
+  height: 62px;
+  font-family: "Baskervville", serif;
+  border: 0.8px solid #725a58;
+  color: #725a58;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.section2 .main_component .text_aboutMe .autograph {
+  font-family: cursive;
+  position: absolute;
+  top: 240px;
+  left: 200px;
+  transform: rotate(-8deg);
+  width: 248px;
+  height: 42px;
+  font-size: 60px;
+  font-weight: 400;
+}
+.section2 .border_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f6f4;
+  width: 863p;
+  margin: 45px auto;
+  border: none;
+}
+.section2 .border_ p {
+  color: #535353;
+  width: 112px;
+  height: 47px;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+}
+.section2 .border_ hr {
+  width: 375px;
+}
+.section2 .brands-list {
+  background-color: transparent;
+  margin: 0 auto;
+  width: 740px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.section2 .brands-list .brands-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section2 .brands-list .brands-row .item {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.section3 {
+  width: 100%;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fae9e7;
+}
+.section3 .head {
+  position: relative;
+  background-color: transparent;
+  width: 835px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.section3 .head h2 {
+  font-family: "Baskervville", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  margin-bottom: 40px;
+}
+.section3 .head hr {
+  width: 200px;
+  height: 1px;
+  margin: 0 auto 40px auto;
+  color: #b99692;
+}
+.section3 .head p {
+  font-size: 18px;
+  width: 437px;
+  margin: 0 auto 40px auto;
+}
+.section3 .head button {
+  font-family: "Baskervville", serif;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 62px;
+  border: 0.8px solid #725a58;
+  color: #725a58;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.section3 .body .pictures {
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .foot {
+  position: relative;
+  background-color: transparent;
+  width: 778px;
+  height: auto;
+  margin: 50px auto 0 auto;
+}
+.section3 .foot .text {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.section3 .foot .text .logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: -50%;
+}
+.section3 .foot .text p {
+  font-family: "Baskervville", serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+.section3 .foot .text .cursol {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 332px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+}
+.section4 .texts {
+  position: relative;
+  background-color: transparent;
+  width: 835px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.section4 .texts h2 {
+  font-family: "Baskervville", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  margin-bottom: 40px;
+}
+.section4 .texts hr {
+  width: 200px;
+  height: 1px;
+  margin: 0 auto 40px auto;
+  color: #e3b6b1;
+}
+.section4 .texts p {
+  font-size: 18px;
+  width: 437px;
+  margin: 0 auto 40px auto;
+}
+.section4 .texts button {
+  font-family: "Baskervville", serif;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 62px;
+  border: 0.8px solid #725a58;
+  color: #725a58;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.section4 .photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin-bottom: 100px;
+}
+.section4 .photos .box {
+  margin: auto 40px;
+  width: 26%;
+  height: auto;
+  position: relative;
+}
+.section4 .photos .box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: inline;
+}
+.section4 .photos .box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid pink;
+}
+.section4 .photos .box:hover {
+  width: 33%;
+  height: auto;
+  transition: all 0.3s linear;
+  z-index: 100;
+}
+.section4 .photos .box:hover::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid pink;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+.section4 .photos .box .text {
+  position: absolute;
+  bottom: 30px;
+  left: -50px;
+  font-family: "Baskervville", serif;
+  font-size: 5.3rem;
+  font-weight: 400;
+  color: #fae9e7;
+}
+.section4 .photos .box .text span {
+  font-family: "Baskervville", serif;
+  color: #b99692;
+}
+
+.section5 {
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+.section5 .container {
+  width: 1303px;
+  height: auto;
+  background-color: #fae9e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section5 .container h2 {
+  font-family: "Baskervville", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin: 80px auto;
+  color: #725a58;
+}
+.section5 .container h2 span {
+  font-family: "Baskervville", serif;
+  font-size: 8rem;
+  font-weight: 100;
+  letter-spacing: 1rem;
+}
+.section5 .container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section5 .container .box .text {
+  position: relative;
+  height: auto;
+  padding-bottom: 90px;
+}
+.section5 .container .box .text .item {
+  position: relative;
+  width: 538px;
+  margin-bottom: 50px;
+}
+.section5 .container .box .text .item .icon img {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.section5 .container .box .text .item .icon p {
+  position: absolute;
+  width: auto;
+  font-size: 30px;
+  top: 50%;
+  left: 100%;
+  transform: translateX(-100%);
+}
+.section5 .container .box .text .item h3 {
+  font-family: "Baskervville", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #725a58;
+  margin-left: 40px;
+  margin-bottom: 12px;
+}
+.section5 .container .box .text .item p {
+  width: 420px;
+  font-size: 18px;
+}
+.section5 .container .box .text button {
+  font-family: "Baskervville", serif;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 160px;
+  height: 62px;
+  border: 0.8px solid #725a58;
+  color: #725a58;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.section5 .container .box .photo {
+  position: relative;
+  height: auto;
+  z-index: 0;
+  margin-left: 80px;
+  margin-top: 0;
+}
+.section5 .container .box .photo::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 369px;
+  height: 494px;
+  border: 1px solid #e3b6b1;
+  z-index: 100;
+}
+
+.section6 {
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.section6 .container {
+  background-color: transparent;
+  width: 974px;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section6 .container h3 {
+  font-family: "Baskervville", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #725a58;
+}
+.section6 .container .videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.section6 .container .videos .video1 {
+  cursor: pointer;
+  background-color: transparent;
+}
+.section6 .container .videos .modal {
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2000;
+}
+.section6 .container .videos .modal .modal-content {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 5% auto;
+  width: 560px;
+}
+.section6 .container .videos .modal .modal-content .close {
+  background-color: #fae9e7;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  top: 0px;
+  right: -95px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section6 .container .videos .modal .modal-content .close:hover, .section6 .container .videos .modal .modal-content .close:focus {
+  color: #191919;
+  text-decoration: none;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.section6 .container .videos .video2 {
+  margin: 0 30px;
+}
+.section6 .container .button {
+  text-align: center;
+}
+.section6 .container .button button {
+  font-family: "Baskervville", serif;
+  width: 222px;
+  height: 62px;
+  border: 0.8px solid #725a58;
+  color: #725a58;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.section7 {
+  width: 100%;
+  height: 500px;
+  background-color: transparent;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f6f4;
+  position: relative;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+footer .copyright p {
+  margin-bottom: 25px;
+}
+footer .icon-box {
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+footer .icon-box .footer_logo {
+  margin-bottom: 15px;
+}
+footer .icon-box .footer_p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+footer .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+footer .navbar ul {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  padding: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+footer .navbar ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 23px 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .navbar ul li:nth-child(1) a {
+  border-bottom: 1px solid #725a58;
+  display: inline;
+}
+footer .navbar ul li a {
+  font-family: "Baskervville", serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 66px;
+    margin-bottom: 20px;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+    padding: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .navbar ul li {
+    font-size: 20px;
+    list-style: none;
+    margin: 23px 0px !important;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li:nth-child(1) a {
+    border-bottom: 1px solid #725a58;
+    display: inline;
+  }
+  .navbar ul li a {
+    font-family: "Baskervville", serif;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

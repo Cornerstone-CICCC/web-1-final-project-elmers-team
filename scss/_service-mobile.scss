@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px){
+
+  body{
+    .head{
+      width: 100%;
+      h2{
+        font-size: 2.5rem;
+      }
+    }
+    .main{
+      .container{
+        padding-bottom: 30px;
+        .card{
+          width: 100%;
+          flex-direction: column;
+
+          .texts{
+            margin-right:16px;
+            margin-left:16px;
+
+            .info{
+              margin: 0;
+            }
+
+            p{
+              margin-bottom: 30px;
+            }
+            button{
+              display: block;
+              margin: 0 auto;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

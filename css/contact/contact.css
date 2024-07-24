@@ -1,0 +1,1100 @@
+/*colors*/
+/*font-family*/
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  body #contact-html {
+    margin: 0 auto;
+    padding: 0px !important;
+  }
+  body #contact-html .title {
+    padding-top: 200px;
+    max-width: 100%;
+  }
+  body #contact-html .title h1 {
+    font-size: 2.5rem !important;
+  }
+  body #contact-html .title p {
+    max-width: 328px;
+  }
+  body #contact-html .title ul li {
+    padding-right: 0 !important;
+  }
+  body #contact-html .title ul li p {
+    display: none;
+  }
+  body #contact-html .form {
+    padding: 0 !important;
+    width: 100%;
+  }
+  body #contact-html .form .heading {
+    max-width: 100%;
+    font-size: 2rem;
+  }
+  body #contact-html .form form {
+    margin: 0 auto;
+    padding: 16px;
+  }
+  body #contact-html .form form .event-type .type-option {
+    flex-direction: column;
+    width: 92%;
+    margin-bottom: 10px;
+  }
+  body #contact-html .form form .event-schedule {
+    flex-direction: column;
+  }
+  body #contact-html .form form .event-schedule .event-date {
+    width: 96%;
+  }
+  body #contact-html .form form .event-schedule .event-time {
+    width: 96%;
+  }
+  body #contact-html .form #next {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body #wedding {
+    padding-top: 200px;
+  }
+  body #wedding .form {
+    padding: 0 !important;
+  }
+  body #wedding .form .heading {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30px;
+    margin-bottom: 10px !important;
+  }
+  body #wedding .form .heading h2 {
+    margin: 0;
+  }
+  body #wedding .form .back {
+    padding-left: 16px;
+    margin: 0;
+  }
+  body #wedding .form form {
+    padding: 16px;
+    padding-bottom: 30px;
+  }
+  body #wedding .form form .braidal-service .type-option {
+    flex-direction: column;
+    width: 90% !important;
+    margin-bottom: 10px;
+  }
+  body #wedding .form form .premium-service .option ul {
+    column-count: 1;
+  }
+  body #wedding .form form .service-person .person {
+    flex-direction: column;
+  }
+  body #wedding .form form .service-person .person .person-left {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  body #wedding .form form .service-person .person .person-left div.input-group {
+    border-right: 0px;
+    padding: 0;
+  }
+  body #wedding .form form .service-person .person .service-type {
+    margin: 0;
+    margin-right: auto;
+  }
+  body #wedding .form form .service-person .person-party {
+    flex-direction: column;
+  }
+  body #wedding .form form .service-person .person-party .person-left {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  body #wedding .form form .service-person .person-party .person-left div.input-group {
+    border-right: 0px;
+    padding: 0;
+  }
+  body #wedding .form form .service-person .person-party .service-type {
+    margin: 0;
+    margin-right: auto;
+  }
+  body #wedding .form form .message textarea {
+    width: 93%;
+  }
+  body #wedding .form form .submit button {
+    width: 100% !important;
+  }
+  body #photoshoot-confirm {
+    width: 100%;
+    padding-top: 200px !important;
+  }
+  body #photoshoot-confirm .form {
+    padding: 0 !important;
+  }
+  body #photoshoot-confirm .form .heading {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  body #photoshoot-confirm .form .message {
+    padding: 16px;
+  }
+  body #photoshoot-confirm .form .message h1 {
+    font-size: 2rem !important;
+  }
+  body #photoshoot-confirm .form .confirm {
+    border: 0px !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body #photoshoot-confirm .form .confirm .header .pc {
+    display: none !important;
+    width: 100%;
+  }
+  body #photoshoot-confirm .form .confirm .icon {
+    display: none;
+  }
+  body #photoshoot-confirm .form .confirm .bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .contact {
+    order: 3;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .contact ul {
+    margin: 0 !important;
+    flex-direction: column;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .contact ul li {
+    margin-bottom: 10px;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .contact ul li:nth-of-type(3) {
+    margin: 0 !important;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .contact ul li:nth-of-type(1) {
+    display: block !important;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .mobile {
+    order: 2;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .mobile .sp {
+    display: block !important;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .share {
+    order: 1;
+    width: 100%;
+  }
+  body #photoshoot-confirm .form .confirm .bottom .share .share-button {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body #party-confirm {
+    width: 100%;
+    padding-top: 200px;
+  }
+  body #party-confirm .form {
+    padding: 0 !important;
+  }
+  body #party-confirm .form .heading {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  body #party-confirm .form .message {
+    border-bottom: 0.8px solid #5E4A49;
+    margin: 16px;
+    margin-bottom: 16px !important;
+  }
+  body #party-confirm .form .message h1 {
+    font-size: 2rem !important;
+  }
+  body #party-confirm .form .confirm {
+    border: 0px !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body #party-confirm .form .confirm .header .pc {
+    display: none !important;
+    width: 100%;
+  }
+  body #party-confirm .form .confirm .estimate {
+    margin: 0 !important;
+  }
+  body #party-confirm .form .confirm .estimate h3 {
+    margin: 0 !important;
+  }
+  body #party-confirm .form .confirm .estimate .estimate-service {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  body #party-confirm .form .confirm .estimate .estimate-service .additional-option {
+    margin: 0 !important;
+    padding-bottom: 20px;
+  }
+  body #party-confirm .form .confirm .icon {
+    display: none;
+  }
+  body #party-confirm .form .confirm .bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  body #party-confirm .form .confirm .bottom .contact {
+    order: 3;
+  }
+  body #party-confirm .form .confirm .bottom .contact ul {
+    margin: 0 !important;
+    flex-direction: column;
+  }
+  body #party-confirm .form .confirm .bottom .contact ul li {
+    margin-bottom: 10px;
+  }
+  body #party-confirm .form .confirm .bottom .contact ul li:nth-of-type(3) {
+    margin: 0 !important;
+  }
+  body #party-confirm .form .confirm .bottom .contact ul li:nth-of-type(1) {
+    display: block !important;
+  }
+  body #party-confirm .form .confirm .bottom .mobile {
+    order: 2;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  body #party-confirm .form .confirm .bottom .mobile .sp {
+    display: block !important;
+  }
+  body #party-confirm .form .confirm .bottom .share {
+    order: 1;
+    width: 100%;
+  }
+  body #party-confirm .form .confirm .bottom .share .share-button {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+body {
+  font-family: Baskervville;
+  background-color: #f8f6f4;
+}
+body header {
+  display: none;
+}
+body header .fixed-icon img {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 700px;
+  right: 0;
+}
+body header .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 196px;
+  background-color: #f8f6f4;
+  z-index: 10000;
+}
+body header .header .header_ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+body header .header .header_ul .header_li {
+  color: #725a58;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #e3b6b1;
+}
+body header .header .header_ul .header_li:last-child {
+  border: none;
+}
+body header .header .header_ul .header_li a {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+}
+body header .header .header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+}
+body #contact-html {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 200px;
+}
+body #contact-html.closeContact {
+  display: none;
+}
+body #contact-html .title {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+  color: #725a58;
+}
+body #contact-html .title img {
+  color: #725a58;
+}
+body #contact-html .title h1 {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+body #contact-html .title hr {
+  width: 200px;
+}
+body #contact-html .title p {
+  width: 430px;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+body #contact-html .title ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+}
+body #contact-html .title ul li {
+  display: flex;
+  list-style-type: none;
+  padding-right: 40px;
+}
+body #contact-html .title ul li p {
+  width: auto;
+}
+body #contact-html .title ul li img {
+  padding-right: 10px;
+  display: inline;
+  vertical-align: middle;
+}
+body #contact-html .form {
+  padding: 60px 80px;
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #fae9e7;
+}
+body #contact-html .form .heading {
+  display: flex;
+  margin-bottom: 40px;
+}
+body #contact-html .form .heading h2 {
+  font-weight: lighter;
+}
+body #contact-html .form .heading .service {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #725a58;
+  text-align: center;
+}
+body #contact-html .form .heading .classes {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+}
+body #contact-html .form label {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+body #contact-html .form span {
+  font-size: 1rem;
+}
+body #contact-html .form .event-type {
+  padding-bottom: 40px;
+}
+body #contact-html .form .event-type .type-option {
+  background-color: #fbfafa;
+  display: inline-block;
+  padding: 12px 16px;
+  margin-right: 10px;
+  width: 27%;
+}
+body #contact-html .form .event-type .type-option :last-of-type {
+  margin-right: 0px;
+}
+body #contact-html .form .event-type .type-option input {
+  float: right;
+}
+body #contact-html .form .event-schedule {
+  display: flex;
+  margin: 0;
+}
+body #contact-html .form .event-schedule .event-date {
+  padding-bottom: 40px;
+  width: 45%;
+  margin-right: 40px;
+}
+body #contact-html .form .event-schedule .event-date #date {
+  width: 95%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+body #contact-html .form .event-schedule .event-time {
+  padding-bottom: 40px;
+  width: 45%;
+}
+body #contact-html .form .event-schedule .event-time #time {
+  width: 95%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+body #contact-html .form .option {
+  display: block;
+  padding-bottom: 16px;
+  accent-color: #b99692;
+}
+body #contact-html .form .name {
+  padding-bottom: 40px;
+}
+body #contact-html .form .name #name {
+  width: 95%;
+  padding: 12px 0px 12px 16px;
+  font-size: 18px;
+}
+body #contact-html .form .call-time {
+  margin-bottom: 40px;
+  display: none;
+}
+body #contact-html .form .call-time.appearTime {
+  display: block;
+}
+body #contact-html .form .contact .box {
+  display: none;
+}
+body #contact-html .form .contact .box.appear {
+  display: block;
+}
+body #contact-html .form .contact .box input {
+  width: 95%;
+  padding: 12px 0px 12px 16px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+body #contact-html .form .next {
+  display: flex;
+  justify-content: center;
+}
+body #contact-html .form .next button {
+  font-size: 1.25rem;
+  background-color: #fae9e7;
+  border: 0.8px solid #5E4A49;
+  padding: 24px 32px 24px 32px;
+  box-shadow: none;
+  width: 160px;
+  font-family: Baskervville;
+}
+body #wedding {
+  margin: 0 auto;
+  display: none;
+}
+body #wedding.appearWedding {
+  display: block;
+}
+body #wedding input[type=checkbox] {
+  border: solid #e3b6b1;
+  accent-color: #e3b6b1;
+}
+body #wedding .back {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body #wedding .back a:link, body #wedding .back a:visited, body #wedding .back a:hover, body #wedding .back a:active {
+  color: #725a58;
+  text-decoration: none;
+}
+body #wedding .back a:link img, body #wedding .back a:visited img, body #wedding .back a:hover img, body #wedding .back a:active img {
+  height: 20px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+body #wedding .back a:link span, body #wedding .back a:visited span, body #wedding .back a:hover span, body #wedding .back a:active span {
+  font-size: 1.25rem;
+}
+body #wedding .form {
+  padding: 60px 80px;
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #fae9e7;
+}
+body #wedding .form .heading {
+  display: flex;
+  margin-bottom: 40px;
+}
+body #wedding .form .heading h2 {
+  font-weight: lighter;
+}
+body #wedding .form .heading .service {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5E4A49;
+  text-align: center;
+}
+body #wedding .form .heading .classes {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+}
+body #wedding .form label {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+body #wedding .form span {
+  font-size: 1rem;
+}
+body #wedding .form .braidal-service {
+  padding-bottom: 40px;
+  width: 102%;
+}
+body #wedding .form .braidal-service .type-option {
+  background-color: white;
+  display: inline-block;
+  padding: 12px 16px;
+  width: 44%;
+}
+body #wedding .form .braidal-service .type-option:nth-of-type(1) {
+  margin-right: 10px;
+}
+body #wedding .form .braidal-service .type-option input {
+  float: right;
+}
+body #wedding .form .event-location {
+  margin: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+body #wedding .form .event-location #location {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: solid 1px #b99692;
+}
+body #wedding .form .premium-service {
+  margin-bottom: 40px;
+}
+body #wedding .form .premium-service ul {
+  column-count: 2;
+  padding-left: 0;
+}
+body #wedding .form .premium-service ul li {
+  list-style: none;
+  padding-bottom: 16px;
+  font-size: 1rem;
+}
+body #wedding .form .service-person {
+  margin-bottom: 40px;
+}
+body #wedding .form .service-person .person {
+  display: flex;
+  background-color: #fbfafa;
+  margin-bottom: 10px;
+  padding: 16px 21px;
+  align-items: center;
+}
+body #wedding .form .service-person .person.closePerson {
+  display: none;
+}
+body #wedding .form .service-person .person .person-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+body #wedding .form .service-person .person .person-left span {
+  font-size: 1.25rem;
+}
+body #wedding .form .service-person .person .service-type {
+  margin: 0 0 0 auto;
+}
+body #wedding .form .service-person .person .service-type #broom-servive {
+  margin-right: 0;
+}
+body #wedding .form .service-person .person .service-type span {
+  margin-left: 16px;
+  font-size: 1.25rem;
+  font-family: Avenir;
+  font-weight: lighter;
+}
+body #wedding .form .service-person .person .service-type span:nth-of-type(1) {
+  margin-right: 40px;
+}
+body #wedding .form .service-person .person input[type=number]::-webkit-outer-spin-button,
+body #wedding .form .service-person .person input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+body #wedding .form .service-person .person input[type=number] {
+  text-align: center;
+  border: 0px;
+  background-color: #fae9e7;
+}
+body #wedding .form .service-person .person button.btn-number {
+  width: 30px;
+  height: 40px;
+  border: 0px;
+  background-color: #fae9e7;
+}
+body #wedding .form .service-person .person div.input-group {
+  display: flex;
+  margin-left: auto;
+  padding-right: 30px;
+  border-right: solid 1px #e3b6b1;
+  font-size: 1.25rem;
+}
+body #wedding .form .service-person .person-party {
+  display: flex;
+  background-color: #fbfafa;
+  margin-bottom: 10px;
+  padding: 16px 21px;
+  align-items: center;
+  display: none;
+}
+body #wedding .form .service-person .person-party.appearParty {
+  display: block;
+}
+body #wedding .form .service-person .person-party .person-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+body #wedding .form .service-person .person-party .person-left span {
+  font-size: 1.25rem;
+}
+body #wedding .form .service-person .person-party .service-type {
+  margin: 0 0 0 auto;
+}
+body #wedding .form .service-person .person-party .service-type #broom-servive {
+  margin-right: 0;
+}
+body #wedding .form .service-person .person-party .service-type span {
+  margin-left: 16px;
+  font-size: 1.25rem;
+  font-family: Avenir;
+  font-weight: lighter;
+}
+body #wedding .form .service-person .person-party .service-type span:nth-of-type(1) {
+  margin-right: 40px;
+}
+body #wedding .form .service-person .person-party input[type=number]::-webkit-outer-spin-button,
+body #wedding .form .service-person .person-party input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+body #wedding .form .service-person .person-party input[type=number] {
+  text-align: center;
+  border: 0px;
+  background-color: #fae9e7;
+}
+body #wedding .form .service-person .person-party button.btn-number {
+  width: 30px;
+  height: 40px;
+  border: 0px;
+  background-color: #fae9e7;
+}
+body #wedding .form .service-person .person-party div.input-group {
+  display: flex;
+  margin-left: auto;
+  padding-right: 30px;
+  border-right: solid 1px #e3b6b1;
+  font-size: 1.25rem;
+}
+body #wedding .form .message {
+  margin-bottom: 40px;
+}
+body #wedding .form .message textarea {
+  height: 160px;
+  width: 97%;
+  padding: 12px;
+  border: none;
+  font-size: 1rem;
+}
+body #wedding .form .submit {
+  display: flex;
+  justify-content: center;
+}
+body #wedding .form .submit button {
+  font-size: 1.25rem;
+  background-color: #fae9e7;
+  border: 0.8px solid #5E4A49;
+  padding: 24px 32px 24px 32px;
+  box-shadow: none;
+  width: 160px;
+  font-family: Baskervville;
+}
+body #photoshoot-confirm {
+  margin: 0 auto;
+  display: none;
+}
+body #photoshoot-confirm.appearConfirm {
+  display: block;
+}
+body #photoshoot-confirm .form {
+  padding: 60px 80px;
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #fae9e7;
+}
+body #photoshoot-confirm .form .heading {
+  display: flex;
+  margin-bottom: 40px;
+}
+body #photoshoot-confirm .form .heading h2 {
+  font-weight: lighter;
+}
+body #photoshoot-confirm .form .heading .service {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5E4A49;
+  text-align: center;
+}
+body #photoshoot-confirm .form .heading .classes {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+}
+body #photoshoot-confirm .form label {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+body #photoshoot-confirm .form span {
+  font-size: 1rem;
+}
+body #photoshoot-confirm .form .message {
+  margin-bottom: 40px;
+}
+body #photoshoot-confirm .form .message h1 {
+  font-size: 3rem;
+  color: #725a58;
+  font-weight: lighter;
+  margin: 0;
+}
+body #photoshoot-confirm .form .message p {
+  font-family: Avenir;
+}
+body #photoshoot-confirm .form .confirm {
+  border: solid 1px #a06b67;
+}
+body #photoshoot-confirm .form .confirm .header {
+  display: flex;
+  justify-content: center;
+}
+body #photoshoot-confirm .form .confirm .header .pc {
+  width: 600px;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body #photoshoot-confirm .form .confirm .icon {
+  margin-left: 83px;
+}
+body #photoshoot-confirm .form .confirm .bottom {
+  justify-content: space-between;
+  display: flex;
+}
+body #photoshoot-confirm .form .confirm .bottom .contact ul {
+  display: flex;
+  padding: 0;
+  margin-left: 83px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+body #photoshoot-confirm .form .confirm .bottom .contact ul li {
+  list-style: none;
+  color: #725a58;
+}
+body #photoshoot-confirm .form .confirm .bottom .contact ul li:nth-of-type(1) {
+  display: none;
+}
+body #photoshoot-confirm .form .confirm .bottom .contact ul li:nth-of-type(3) {
+  margin-left: 15px;
+}
+body #photoshoot-confirm .form .confirm .bottom .contact ul li img {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+body #photoshoot-confirm .form .confirm .bottom .mobile .sp {
+  display: none;
+}
+body #photoshoot-confirm .form .confirm .bottom .share {
+  margin-right: 83px;
+  margin-bottom: 40px;
+}
+body #photoshoot-confirm .form .confirm .bottom .share button {
+  font-size: 1.25rem;
+  background-color: #fae9e7;
+  border: 0.8px solid #5E4A49;
+  padding: 24px 32px 24px 32px;
+  box-shadow: none;
+  width: 160px;
+  height: 62px;
+  font-family: "Baskervville", serif;
+  color: #725a58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #party-confirm {
+  margin: 0 auto;
+  display: none;
+}
+body #party-confirm.appearPartyConfirm {
+  display: block;
+}
+body #party-confirm .form {
+  padding: 60px 80px;
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #fae9e7;
+}
+body #party-confirm .form .heading {
+  display: flex;
+  margin-bottom: 40px;
+}
+body #party-confirm .form .heading h2 {
+  font-weight: lighter;
+}
+body #party-confirm .form .heading .service {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5E4A49;
+  text-align: center;
+}
+body #party-confirm .form .heading .classes {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+}
+body #party-confirm .form label {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+body #party-confirm .form span {
+  font-size: 1rem;
+}
+body #party-confirm .form .message {
+  margin-bottom: 40px;
+}
+body #party-confirm .form .message h1 {
+  font-size: 3rem;
+  color: #725a58;
+  font-weight: lighter;
+  margin: 0;
+}
+body #party-confirm .form .message p {
+  font-family: Avenir;
+}
+body #party-confirm .form .confirm {
+  border: solid 1px #a06b67;
+  margin: 0 0 0 auto;
+}
+body #party-confirm .form .confirm .header {
+  display: flex;
+  justify-content: center;
+}
+body #party-confirm .form .confirm .header .pc {
+  width: 600px;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body #party-confirm .form .confirm .estimate {
+  margin-left: 83px;
+  margin-right: 83px;
+  margin-bottom: 40px;
+}
+body #party-confirm .form .confirm .estimate p {
+  font-size: 1rem;
+  font-family: Avenir;
+  padding: 0;
+}
+body #party-confirm .form .confirm .estimate h3 {
+  font-size: 2.5rem;
+  font-family: "Baskervville", serif;
+  color: #725a58;
+  font-weight: lighter;
+  margin: 30px;
+}
+body #party-confirm .form .confirm .estimate .estimate-service {
+  display: flex;
+}
+body #party-confirm .form .confirm .estimate .estimate-service span {
+  font-size: 1.5rem;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .Basic-service ul {
+  padding: 0;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .Basic-service ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .Basic-service div {
+  margin-bottom: 10px;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .additional-option {
+  margin: 0 0 0 auto;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .additional-option .addedPremium-services {
+  margin-bottom: 30px;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .additional-option .addedPremium-services, body #party-confirm .form .confirm .estimate .estimate-service .additional-option .additional {
+  list-style: none;
+  padding: 0;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .additional-option .addedPremium-services div, body #party-confirm .form .confirm .estimate .estimate-service .additional-option .additional div {
+  margin: 10px 0;
+}
+body #party-confirm .form .confirm .estimate .estimate-service .additional-option .additional {
+  margin-bottom: 30px;
+}
+body #party-confirm .form .confirm .icon {
+  margin-left: 83px;
+}
+body #party-confirm .form .confirm .bottom {
+  justify-content: space-between;
+  display: flex;
+}
+body #party-confirm .form .confirm .bottom .contact ul {
+  display: flex;
+  padding: 0;
+  margin-left: 83px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+body #party-confirm .form .confirm .bottom .contact ul li {
+  list-style: none;
+  color: #725a58;
+}
+body #party-confirm .form .confirm .bottom .contact ul li:nth-of-type(1) {
+  display: none;
+}
+body #party-confirm .form .confirm .bottom .contact ul li:nth-of-type(3) {
+  margin-left: 15px;
+}
+body #party-confirm .form .confirm .bottom .contact ul li img {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+body #party-confirm .form .confirm .bottom .mobile .sp {
+  display: none;
+}
+body #party-confirm .form .confirm .bottom .share {
+  margin-right: 83px;
+  margin-bottom: 40px;
+}
+body #party-confirm .form .confirm .bottom .share button {
+  font-size: 1.25rem;
+  background-color: #fae9e7;
+  border: 0.8px solid #5E4A49;
+  padding: 24px 32px 24px 32px;
+  box-shadow: none;
+  width: 160px;
+  height: 62px;
+  font-family: "Baskervville", serif;
+  color: #725a58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f6f4;
+  display: none;
+}
+body footer .icon-box {
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+body footer .icon-box .footer_logo {
+  margin-bottom: 15px;
+}
+body footer .icon-box .footer_p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+body footer .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 66px;
+  margin-bottom: 20px;
+}
+body footer .navbar ul {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  padding: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 66px;
+}
+body footer .navbar ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 23px 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .navbar ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+body footer .copyright {
+  text-align: center;
+  margin-bottom: 25px;
+}
+body footer .copyright p {
+  margin-bottom: 25px;
+}
+
+/*# sourceMappingURL=contact.css.map */

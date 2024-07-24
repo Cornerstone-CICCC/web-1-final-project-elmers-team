@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/contact/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <div class="box_">
+      <div class="hum-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="header_logo">
+        <a href="/html/home.html"><img src="/images/mark/main_logo.svg" alt="main logo"></a>
+      </div>
+      <ul>
+        <li><a href="/html/home.html">Home</a></li>
+        <li><a href="">My Work</a></li>
+        <li><a href="/html/service.html">Services</a></li>
+        <li><a href="">Classes</a></li>
+        <li><a href="">Beauty Tips</a></li>
+        <li><a href="/html/about.html">About</a></li>
+        <li><a href="/html/contact/contact.html">Contact</a></li>
+        <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><img src="https://placehold.co/25x25" alt="instagram_icon"></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- contact -->
+  <div class = "container" id="contact-html">
+    <div class = "title">
+      <h1>CONTACT</h1>
+      <hr>
+      <p>Get a quote and book a free consultation for your special day or our academy services</p>
+      <ul>
+        <li><img src="/images/mark/phone.svg"><p>+1 0000000000</p></li>
+        <li><img src="/images/mark/whatsapp.svg"><p>+1 0000000000</p></li>
+        <li><img src="/images/mark/instagram_brown.svg"><p>carlabeatrizs_</p></li>
+      </ul>
+    </div>
+    <div class = "form">
+      <div class="heading">
+        <h2 class="service">Service</h2>
+        <h2 class="classes">Classes</h2>
+      </div>
+      <form>
+        <div class="event-type">
+          <label>Event Type</label><br>
+            <div class = "type-option">
+              <span>Wedding</span>
+              <input type="radio" name ="event-type"  id = "option-wedding">
+            </div>
+            <div class = "type-option">
+              <span>Party</span>
+              <input type="radio" name ="event-type" id = "option-party">
+            </div>
+            <div class = "type-option">
+              <span>Photoshoot</span>
+              <input type="radio" name ="event-type" id ="option-photo">
+            </div>
+        </div>
+        <div class="event-schedule">
+          <div class="event-date">
+            <label>Event Date</label><br>
+              <input type="date" name="event-date" id="date" value="Select Date" class="answer"><br>
+              <input type="checkbox" name="notyet" value="notyet" class="notyet">
+              <span class="not">Not decided</span>
+          </div>
+          <div class="event-time">
+            <label>Event Time</label><br>
+              <input type="time" name="time" id="time" class="answer"><br>
+              <input type="checkbox" name="notyet" value="notyet" class="notyet">
+              <span class="not">Not decided</span>
+          </div>
+        </div>
+        <div class="name">
+          <label>Name</label><br>
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="Your name">
+        </div>
+        <div>
+            <label>Contact</label><br>
+            <div class="contact">
+              <div class="option">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-call">
+                <span>Call</span>
+              </div>
+              <div class ="box" id = "box-call">
+                <input type="phone" name="phone" id="phone" class="input"
+               title="Phone numbers should be this format:(111)-111-111" pattern="0-9"  placeholder="Your mobile number" required>
+              </div>
+
+              <div class="option">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-whatsapp">
+                <span>WhatsApp</span>
+              </div>
+              <div class ="box" id = "box-whatsapp">
+                <input type="phone" name="phone" id="phone" class="input"
+                  title="Phone numbers should be this format:(111)-111-111" pattern="0-9" placeholder="Your mobile number" required>
+              </div>
+
+              <div class="option">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-sms">
+                <span>SMS</span>
+              </div>
+              <div class="box"  id = "box-sms">
+                <input type="phone" name="phone" id="phone" class="input"
+               placeholder="Your mobile number" required>  
+              </div>
+
+              <div class="option">
+                <input type="radio" name ="contact" class ="contact-button" id = "contact-email">
+                <span>Email</span>
+              </div>
+              <div class="box"  id = "box-email">
+                <input type="email" name="email" id="email" class="input"
+                placeholder="Your e-mail adress" pattern="[a-zA-Z0-9_.]" required>
+              </div>
+            </div>
+          </div> 
+        <div class ="callTime">
+          <h3>When do you want us to call?</h3>
+          <div class="option">
+            <input type="radio" name="time" value="dont_mind" class="call-time">
+            <span>I don't mind</span>
+          </div>
+          <div class="option">
+            <input type="radio" name="time" value="morning" class="call-time">
+            <span>Morning</span>
+          </div>
+          <div class="option">
+            <input type="radio" name="time" value="afternoon" class="call-time">
+            <span>Afternoon</span>
+          </div>
+          <div class="option">
+            <input type="radio" name="time" value="evening" class="call-time">
+            <span>Evening</span>
+          </div>
+        </div>
+        <div class="next">
+          <button id = "next">Next</button>
+        </div>
+      </form>
+    </div>
+  </div> 
+
+  <!-- wedding(contact)-detail -->
+
+  <div class = "container" id="wedding">
+    <div class = "form">
+      <div class="heading">
+        <h2 class="service">Service</h2>
+        <h2 class="classes">Classes</h2>
+      </div>
+      <div class = "back">
+        <a href ="#contact-html">
+          <img  src="/images/contact/arrow-back.svg"> 
+          <span>Back</span> 
+        </a>        
+      </div>
+      <form>
+        <div class="braidal-service">
+          <label>Bridal Service</label><br>
+          <div class = "type-option">
+            <span>Makeup</span>
+            <input type="checkbox" name ="event-type" class="event-type">
+          </div>
+          <div class = "type-option">
+            <span>Hairstyle</span>
+            <input type="checkbox" name ="event-type" class="event-type">
+          </div>
+        </div>
+        <div class="event-location">
+          <label>Event Location</label><br>
+          <input type="search" name="location" id="location" placeholder="Search adress" class="answer"><br>
+          <input type="checkbox" name="notyet" value="notyet" class = "notyet" >
+          <span class="not">Not decided</span>
+        </div>
+        <div>
+          <label>Premium service</label><br>
+          <div class="premium-service">
+            <div class="option">
+              <ul>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                <span>Deep skin cleansing</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Hydromassage</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Waxing</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Relaxing massage</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Bleach body hair</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Hair Moisture</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Foot and hand SPA</span></li>
+                <li><input type="checkbox" name ="service-option" class ="service-option">
+                  <span>Gommage (body exfoliation and hydration)</span></li>
+              </ul>
+            </div>
+          </div> 
+        </div>
+        <div class="service-person">
+          <label>Anyone else need service?</label>
+          <div class = "person">
+            <div class="person-left">
+              <span>Groom</span>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                    -
+                  </button>
+                </div>
+                <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+                <div class="input-group-append">
+                  <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                    +
+                  </button>
+                </div> 
+              </div>
+              <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite"></div>
+              </div>
+
+            <div class="service-type">
+              <input type = "checkbox">
+              <span id="broom-servive">Makeup</span>
+            </div>
+          </div>
+          <div class = "person">
+            <div class="person-left">
+              <span>Bridesmaid</span>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                  -
+                  </button>
+                </div>
+                <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+                <div class="input-group-append">
+                  <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                  +
+                  </button>
+                </div> 
+              </div>
+              <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite"></div>
+            </div>
+            
+            <div class="service-type">
+              <input type = "checkbox" class="service-type">
+              <span>Hairstyle</span>
+              <input type = "checkbox" class="service-type">
+              <span>Makeup</span>
+            </div>
+          </div>
+          <div class = "person">
+            <div class ="person-left">
+              <span>Flower girl</span>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                    -
+                  </button>
+                </div>
+
+                <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+
+                <div class="input-group-append">
+                  <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                    +
+                  </button>
+                </div>
+                <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite"></div>
+              </div>
+            </div>
+            <div class="service-type">
+              <input type = "checkbox" class="service-type">
+              <span>Hairstyle</span>
+              <input type = "checkbox" class="service-type">
+              <span>Makeup</span>
+            </div>
+          </div>
+          <div class = "person-party">
+            <div class="person-left">
+              <span>Woman</span>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                  -
+                </button>
+              </div>
+              <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+              <div class="input-group-append">
+                <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                  +
+                </button>
+              </div> 
+            </div>
+            <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite">
+            </div>
+            </div>
+            
+            <div class="service-type">
+              <input type = "checkbox">
+              <span>Hairstyle</span>
+              <input type = "checkbox">
+              <span>Makeup</span>
+            </div>
+          </div>
+          <div class = "person-party">
+            <div class="person-left">
+              <span>Man</span>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button type="button" aria-label="minus" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="minus" data-field="unit">
+                  -
+                </button>
+              </div>
+              <input type="number" id="number-of-unit" name="unit" value="1" min="0" max="10" class="form-control input-number border-dark">
+              <div class="input-group-append">
+                <button type="button" aria-label="up" aria-describedby="label-number-of-unit" class="btn btn-outline-dark btn-number rounded-0" data-type="plus" data-field="unit">
+                  +
+                </button>
+              </div> 
+            </div>
+            <div id="output-number-of-unit" class="sr-only" role="status" aria-live="polite">
+            </div>
+            </div>
+
+            <div class="service-type">
+              <input type = "checkbox">
+              <span id="broom-servive">Makeup</span>
+            </div>
+          </div>
+        </div>
+        <div class="message">
+          <label>Anyone else need service?</label><br>
+          <textarea placeholder="Your message" class="message"></textarea>
+        </div>
+        <div class="submit">
+          <button type="submit" id ="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div> 
+
+  <!-- photoshoot-confirm -->
+
+  <div class = "container" id="photoshoot-confirm">
+    <div class = "form">
+      <div class="heading">
+        <h2 class="service">Service</h2>
+        <h2 class="classes">Classes</h2>
+      </div>
+      <div class ="message">
+        <h1>Thanks Janny, </h1>
+        <h1>we will contact you soon!</h1>
+        <p>We will call +1-123-4567-890 to confirm the appointment details with you.</p>
+      </div>
+      <div class="confirm">
+        <div class = "header">
+          <img class = "pc" src = "/images/contact/confirm-photo.png" >
+        </div>
+        <img src = "/images/mark/main_logo.svg" class = "icon">
+        <div class = "bottom">
+          <div class = "contact">
+            <ul>
+              <li><img src="/images/mark/phone.svg">+1 0000000000</li>
+              <li><img src="/images/mark/whatsapp.svg">+1 0000000000</li>
+              <li><img src="/images/mark/instagram_brown.svg">carlabeatrizs_</li>
+            </ul>
+          </div>
+
+          <div class = "mobile">
+            <img class = "sp" src ="/images/contact/confirm_mobile.png">
+          </div>
+  
+          <div class="share">
+            <button type="submit" class="share-button">Share</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- wedding/party-confirm -->
+  <div class = "container" id="party-confirm">
+    <div class = "form">
+      <div class="heading">
+        <h2 class="service">Service</h2>
+        <h2 class="classes">Classes</h2>
+      </div>
+      <div class ="message">
+        <h1>Thanks Janny, </h1>
+        <h1>we will contact you soon!</h1>
+        <p>We will call +1-123-4567-890 to confirm the appointment details with you.</p>
+      </div>
+      <div class="confirm">
+        <div class = "header">
+          <img class = "pc" src = "/images/contact/confirm-photo.png" >
+        </div>
+        <div class = "estimate">
+          <p>Your estimated price will be:</p>
+          <h3>CAD 1,000 - 1,200</h3>
+          <div class = "estimate-service">
+            <div class = "Basic-service">
+              <span>Basic service</span>
+              <ul>
+                <li>-Exclusive room</li>
+                <li>-Hairstyle trial</li>
+                <li>-Makeup trial</li>
+                <li>-Manicure</li>
+                <li>-Pedicure</li>
+                <li>-Eyebrow design</li>
+                <li>-Coffee or tea with cake</li>
+                <li>-Bathtub</li>
+                <li>-Help with getting dressed</li>
+              </ul>
+            </div>
+            <div class = "additional-option">
+              <div class="addedPremium-services">
+                <span>Premium services</span>
+              </div>
+              <div class="additional">
+                <span>Additional headcount</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src = "/images/mark/main_logo.svg" class = "icon">
+        <div class = "bottom">
+          <div class = "contact">
+            <ul>
+              <li><img src="/images/mark/phone.svg">+1 0000000000</li>
+              <li><img src="/images/mark/whatsapp.svg">+1 0000000000</li>
+              <li><img src="/images/mark/instagram_brown.svg">carlabeatrizs_</li>
+            </ul>
+          </div>
+
+          <div class = "mobile">
+            <img class = "sp" src ="/images/contact/confirm_mobile.png">
+          </div>
+  
+          <div class="share">
+            <button type="submit" class="share-button">Share</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="icon-box">
+      <div class="footer_logo">
+        <img src="/images/mark/main_logo.svg" alt="main logo">
+      </div>
+      <p class="footer_p">Expert makeup and hairstyle studio</p>
+      <div class="icons">
+        <img src="/images/mark/phone.svg" alt="phone">
+        <img src="/images/mark/whatsapp.svg" alt="whatsapp">
+        <img src="/images/mark/instagram_brown.svg" alt="instagram">
+      </div>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="/html/home.html">Home</a></li>
+        <li><a href="/html/404error.html">My Work</a></li>
+        <li><a href="/html/service.html">Services</a></li>
+        <li><a href="">Classes</a></li>
+        <li><a href="">Beauty Tips</a></li>
+        <li><a href="/html/about.html"> About</a></li>
+        <li><a href="/html/contact/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>Copyright 2024, Carla Beauty</p>
+    </div>
+  </footer>
+
+  <script src="/js/contact/contact.js"></script>
+  <script src="/js/contact/home-modal.js"></script>
+</body>
+</html>

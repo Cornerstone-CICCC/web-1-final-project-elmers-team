@@ -1,0 +1,372 @@
+@media screen and (max-width: 600px){
+  body {
+    margin: 0;
+
+    // contact-html
+    #contact-html {
+      margin: 0 auto;
+      padding:0px !important;
+
+      .title{
+        padding-top: 200px;
+        max-width:100%;
+
+        h1{
+          font-size: 2.5rem !important;
+        }
+
+        p {
+            max-width:328px;
+          }
+
+        ul{
+    
+          li{
+            padding-right: 0 !important;
+              p{
+              display: none;
+            }
+          }
+          }
+        }
+
+        .form {
+          padding:0 !important;
+          width: 100%;
+
+          .heading {
+            max-width: 100%;
+            font-size: 2rem;
+          }
+
+          form{
+            margin: 0 auto;
+            padding: 16px;
+            .event-type{
+              .type-option{
+                flex-direction: column;
+                width: 92%;
+                margin-bottom: 10px;
+              }
+            }
+
+            .event-schedule{
+              flex-direction: column;
+
+              .event-date{
+                  width:96%;
+              }
+
+              .event-time{
+                width:96%;
+              }
+            }
+          }
+          #next {
+            width:100%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+          }
+        }
+    }
+
+    // wedding 
+    #wedding {
+      padding-top: 200px;
+
+      .form {
+        padding:0 !important;
+
+        .heading {
+          padding-left: 16px;
+          padding-right: 16px;
+          padding-top: 30px;
+          margin-bottom: 10px !important;
+
+          h2{
+            margin: 0
+          }
+        }
+        
+        .back {
+          padding-left: 16px;
+          margin: 0;
+        }
+
+        form{
+          padding: 16px;
+          padding-bottom: 30px;
+          .braidal-service{
+          
+            .type-option{
+              flex-direction: column;
+              width: 90% !important;
+              margin-bottom: 10px;
+            }
+          }
+  
+          .premium-service {
+            .option{
+              ul{
+                 column-count: 1;
+              }
+            }
+          }
+
+          .service-person{
+            .person {
+              flex-direction: column; 
+  
+              .person-left{
+                width: 100% !important;
+                margin-bottom: 10px;
+                
+  
+                div.input-group{
+                  border-right:0px;
+                  padding: 0;
+                }
+              }
+
+              .service-type{
+                margin:0;
+                margin-right:auto;
+              }
+            }
+
+            .person-party {
+              flex-direction: column; 
+  
+              .person-left{
+                width: 100% !important;
+                margin-bottom: 10px;
+                
+  
+                div.input-group{
+                  border-right:0px;
+                  padding: 0;
+                }
+              }
+
+              .service-type{
+                margin:0;
+                margin-right:auto;
+              }
+            }
+          }
+
+          .message{
+            textarea{
+              width: 93%;
+            }
+          }
+
+          .submit{
+            
+            button{
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+
+    #photoshoot-confirm{
+      width: 100%;
+      padding-top: 200px !important;
+
+      .form {
+        padding:0 !important;
+
+        .heading{
+          padding-right: 16px;
+          padding-left: 16px;
+        }
+
+        .message{
+          padding:16px;
+          
+          h1 {
+            font-size: 2rem !important;
+          }
+        }
+
+        .confirm {
+          border:0px !important;
+          display: flex;
+          flex-direction: column;
+          padding-left: 16px;
+          padding-right: 16px;
+
+          .header{
+              .pc{
+                display: none !important;
+                width: 100%;
+              }
+            }
+  
+          .icon{
+            display: none;
+          }
+
+          .bottom{
+            display:flex;
+            flex-direction: column;
+            margin-bottom:30px;
+
+            .contact {
+              order:3;
+
+              ul{
+                margin: 0 !important;
+                flex-direction: column;
+
+                li{
+
+                  margin-bottom: 10px;
+                  &:nth-of-type(3) {
+                    margin: 0 !important;
+                  }
+
+                  &:nth-of-type(1){
+                    display: block !important;
+                  }
+                  
+                }
+              }
+            }
+
+            .mobile{
+              order:2;
+              margin: 0 auto;
+              padding-bottom: 30px;
+              
+              .sp{
+                display: block !important;
+              }
+            }
+
+            .share {
+              order:1;
+              width: 100%;
+
+              .share-button{
+                margin: 0 auto;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #party-confirm{
+      width: 100%;
+      padding-top: 200px;
+      
+      .form {
+        padding:0 !important;
+
+        .heading{
+          padding-right: 16px;
+          padding-left: 16px;
+        }
+
+        .message{
+          // padding:16px;
+          border-bottom: 0.8px solid #5E4A49;
+          margin:16px;
+          margin-bottom: 16px !important;
+          
+          h1 {
+            font-size: 2rem !important;
+          }
+        }
+
+        .confirm {
+          border:0px !important;
+          display: flex;
+          flex-direction: column;
+          padding-left: 16px;
+          padding-right: 16px;
+
+          .header{
+              .pc{
+                display: none !important;
+                width: 100%;
+              }
+            }
+
+          .estimate {
+            margin: 0 !important;
+
+            h3{
+              margin: 0 !important;
+            }
+
+            .estimate-service{
+              flex-direction: column;
+              margin-top: 30px;
+              .additional-option{
+                margin:0 !important;
+                padding-bottom: 20px;
+              }
+            }
+          }
+  
+          .icon{
+            display: none;
+          }
+
+          .bottom{
+            display:flex;
+            flex-direction: column;
+            margin-bottom:30px;
+
+            .contact {
+              order:3;
+
+              ul{
+                margin: 0 !important;
+                flex-direction: column;
+
+                li{
+
+                  margin-bottom: 10px;
+                  &:nth-of-type(3) {
+                    margin: 0 !important;
+                  }
+
+                  &:nth-of-type(1){
+                    display: block !important;
+                  }
+                  
+                }
+              }
+            }
+
+            .mobile{
+              order:2;
+              margin: 0 auto;
+              padding-bottom: 30px;
+              
+              .sp{
+                display: block !important;
+              }
+            }
+
+            .share {
+              order:1;
+              width: 100%;
+
+              .share-button{
+                margin: 0 auto;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

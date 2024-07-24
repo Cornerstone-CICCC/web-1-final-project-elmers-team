@@ -1,0 +1,111 @@
+body {
+  font-family: Baskervville;
+  background-color: #F8F6F4;
+}
+body .container {
+  margin: 0 auto;
+}
+body .container .form {
+  padding: 60px 80px;
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #FAE9E7;
+}
+body .container .form .heading {
+  display: flex;
+  margin-bottom: 40px;
+}
+body .container .form .heading h2 {
+  font-weight: lighter;
+}
+body .container .form .heading .service {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5E4A49;
+  text-align: center;
+}
+body .container .form .heading .classes {
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+}
+body .container .form label {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+body .container .form span {
+  font-size: 1rem;
+}
+body .container .form .message {
+  margin-bottom: 40px;
+}
+body .container .form .message h1 {
+  font-size: 3rem;
+  color: #725A58;
+  font-weight: lighter;
+  margin: 0;
+}
+body .container .form .message p {
+  font-family: avenir;
+}
+body .container .form .confirm {
+  border: solid 1px #A06D67;
+}
+body .container .form .confirm .header img {
+  width: 600px;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body .container .form .confirm .icon {
+  margin-left: 83px;
+}
+body .container .form .confirm .bottom {
+  justify-content: space-between;
+  display: flex;
+}
+body .container .form .confirm .bottom .contact ul {
+  display: flex;
+  padding: 0;
+  margin-left: 83px;
+  margin-bottom: 0;
+  margin-top: 35px;
+}
+body .container .form .confirm .bottom .contact ul li {
+  list-style: none;
+  color: #725A58;
+}
+body .container .form .confirm .bottom .contact ul li:nth-of-type(2) {
+  margin-left: 15px;
+}
+body .container .form .confirm .bottom .contact ul li img {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+body .container .form .confirm .bottom .share {
+  margin-right: 83px;
+  margin-bottom: 40px;
+}
+body .container .form .confirm .bottom .share button {
+  font-size: 1.25rem;
+  background-color: #FAE9E7;
+  border: 0.8px solid #5E4A49;
+  padding: 24px 32px 24px 32px;
+  box-shadow: none;
+  width: 160px;
+  height: 62px;
+  font-family: Baskervville;
+  color: #725A58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=photoshoot-confirm.css.map */
