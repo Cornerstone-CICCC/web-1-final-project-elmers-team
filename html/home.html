@@ -6,7 +6,7 @@
   <title>Home</title>
   <link rel="stylesheet" href="/css/home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
 </head>
@@ -22,14 +22,14 @@
         <a href="/html/home.html"><img src="/images/mark/main_logo.svg" alt="main logo"></a>
       </div>
       <ul>
-        <li><a href="/html/home.html">Home</a></li>
-        <li><a href="/html/404error.html">My Work</a></li>
-        <li><a href="/html/service.html">Services</a></li>
-        <li><a href="">Classes</a></li>
-        <li><a href="">Beauty Tips</a></li>
-        <li><a href="/html/about.html">About</a></li>
-        <li><a href="/html/contact/contact.html">Contact</a></li>
-        <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><img src="https://placehold.co/25x25" alt="instagram_icon"></a></li>
+        <li><a href="">home</a></li>
+        <li><a href="">my work</a></li>
+        <li><a href="">services</a></li>
+        <li><a href="">classes</a></li>
+        <li><a href="">beauty tips</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+        <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><img src="/images/mark/instagram_brown.svg" alt="instagram_icon"></a></li>
       </ul>
     </div>
   </header>
@@ -51,10 +51,6 @@
         <div class="card_container">
           <div class="card">
             <div class="photo_"><img src="/images/portrait/Frame+123.png" alt="woman with pink background color"></div>
-            <!-- <div class="insta-account">
-              <img src="/images/mark/instagram_white.svg" alt="">
-              <p class="account-name">carlabeatrizs_</p>
-            </div> -->
             <div class="card_texts">
               <div class="logo"><img src="/images/brand-logo/Loreal.svg" alt="LOREAL_logo"></div>
               <p>Official Certified Professional</p>
@@ -90,20 +86,6 @@
           <div  class="item item8"><img src="/images/brand-logo/kryolan.svg" alt="kryolan"></div>
         </div>
       </div>
-      <!-- <div class="logos">
-        <div class="box">
-          <div class="brands-list">
-            <div  class="item item1"><img src="/images/brand-logo/MAC.svg" alt="MAC"></div>
-            <div  class="item item2"><img src="/images/brand-logo/Lancôme.svg" alt="Lancôme"></div>
-            <div  class="item item3"><img src="/images/brand-logo/inglot.svg" alt="inglot"></div>
-            <div  class="item item4"><img src="/images/brand-logo/Laura Mercier.svg" alt="Laura Mercier"></div> 
-            <div  class="item item5"><img src="/images/brand-logo/charlotteTilbury.svg" alt=""></div>
-            <div  class="item item6"><img src="/images/brand-logo/tarte.svg" alt="tarte"></div>
-            <div  class="item item7"><img src="/images/brand-logo/anastasia.svg" alt="anastasia"></div>
-            <div  class="item item8"><img src="/images/brand-logo/kryolan.svg" alt="kryolan"></div>
-          </div>
-        </div>
-      </div> -->
     </section>
     <section class="section3">
       <div class="head">
@@ -193,31 +175,40 @@
         </div>
       </div>
     </section>
-    <section class="section6">
-      <div class="container">
-        <h3>DIY Beauty Corner</h3>
-        <div class="videos">
-          <div class="video1" onclick="openModal1()">
-            <img src="/images/_videos/video1.png" alt="video1">
-          </div>
-          <div class="video2" onclick="openModal2()">
-            <img src="/images/_videos/video2.png" alt="video2">
-          </div>
-          <div class="video3" onclick="openModal3()">
-            <img src="/images/_videos/videos3.png" alt="video3">
-          </div>
-          <div id="myModal" class="modal" onclick="closeModal()">
-            <div class="modal-content">
-              <span class="close" onclick="closeModal()">&times;</span>
-              <iframe id="youtubeVideo" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
+<section class="section6">
+  <div class="container">
+    <h3>DIY Beauty Corner</h3>
+    <div class="nav-buttons">
+      <button class="prev">Prev</button>
+      <button class="next">Next</button>
+    </div>
+    <div class="videos-wrapper">
+      <div class="videos">
+        <div class="video1" onclick="openModal1()">
+          <img src="/images/_videos/video1.png" alt="video1">
         </div>
-        <div class="button">
-          <button>More Beauty Tips</button>
+        <div class="video2" onclick="openModal2()">
+          <img src="/images/_videos/video2.png" alt="video2">
+        </div>
+        <div class="video3" onclick="openModal3()">
+          <img src="/images/_videos/videos3.png" alt="video3">
         </div>
       </div>
-    </section>
+    </div>
+    <div class="button">
+      <button>More Beauty Tips</button>
+    </div>
+  </div>
+</section>
+<div id="myModal" class="modal" onclick="closeModal()">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <iframe id="youtubeVideo" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+    
+    
     <section class="section7"></section>
 
   </main>
@@ -250,6 +241,7 @@
       <p>Copyright 2024, Carla Beauty</p>
     </div>
   </footer>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="/js/contact/home-modal.js"></script>
 </body>
